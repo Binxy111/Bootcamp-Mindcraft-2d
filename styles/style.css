@@ -32,6 +32,7 @@ body {
 	top: 50px;
 	font-size: 50px;
 	font-family: 'Play', sans-serif;
+	box-shadow: 28px -15px 55px 0px #332f2f;
 }
 .landing-page h2 {
 	position: absolute;
