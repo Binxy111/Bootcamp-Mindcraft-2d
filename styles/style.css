@@ -18,7 +18,7 @@ body {
 	top: 0;
 	left: 0;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000),
-		url('/Imgs/landing.png') no-repeat 10px;
+		url('../Imgs/landing.png') no-repeat 10px;
 	background-size: cover;
 	object-fit: cover;
 	position: absolute;
@@ -81,7 +81,7 @@ table:hover tr {
 .pickaxe {
 	width: 118px;
 	height: 100px;
-	background: url('./Imgs/pickaxe.png') no-repeat 10px 0px;
+	background: url('../Imgs/pickaxe.png') no-repeat 10px 0px;
 	background-size: 100px;
 	object-fit: cover;
 	cursor: pointer;
@@ -89,7 +89,7 @@ table:hover tr {
 .shoval {
 	width: 118px;
 	height: 100px;
-	background: url('./Imgs/shoval.png') no-repeat 10px 0px;
+	background: url('../Imgs/shoval.png') no-repeat 10px 0px;
 	background-size: 100px;
 	object-fit: cover;
 	cursor: pointer;
@@ -97,7 +97,7 @@ table:hover tr {
 .axe {
 	width: 118px;
 	height: 100px;
-	background: url('./Imgs/garzen.png') no-repeat 10px 0px;
+	background: url('../Imgs/garzen.png') no-repeat 10px 0px;
 	background-size: 100px;
 	object-fit: cover;
 	cursor: pointer;
