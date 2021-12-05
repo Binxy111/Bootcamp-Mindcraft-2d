@@ -1,0 +1,172 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	display: flex;
+}
+.main-container {
+	flex: 7;
+	position: relative;
+}
+
+.landing-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000),
+		url('/Imgs/landing.png') no-repeat 10px;
+	background-size: cover;
+	object-fit: cover;
+	position: absolute;
+	width: 87vw;
+	height: 100vh;
+	z-index: 1;
+}
+.landing-page h1 {
+	position: absolute;
+	color: rgb(116, 116, 116);
+	top: 50px;
+	font-size: 50px;
+	font-family: 'Play', sans-serif;
+}
+.world-container {
+	display: flex;
+	justify-content: center;
+	background: rgb(255, 255, 255);
+}
+.world {
+	background-color: lightblue;
+}
+table {
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	opacity: 0.5;
+}
+
+.side-container {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	align-items: center;
+}
+.tools-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+	height: 450px;
+	width: 120px;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.tool-item-container {
+	width: 120px;
+	height: 140px;
+	border: rgb(255, 254, 254) solid 1px;
+	margin-bottom: 7px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+table:hover tr {
+	background-color: lightgreen;
+}
+.pickaxe {
+	width: 118px;
+	height: 100px;
+	background: url('./Imgs/pickaxe.png') no-repeat 10px 0px;
+	background-size: 100px;
+	object-fit: cover;
+	cursor: pointer;
+}
+.shoval {
+	width: 118px;
+	height: 100px;
+	background: url('./Imgs/shoval.png') no-repeat 10px 0px;
+	background-size: 100px;
+	object-fit: cover;
+	cursor: pointer;
+}
+.axe {
+	width: 118px;
+	height: 100px;
+	background: url('./Imgs/garzen.png') no-repeat 10px 0px;
+	background-size: 100px;
+	object-fit: cover;
+	cursor: pointer;
+}
+.item-title h1 {
+	font-size: 20px;
+	bottom: 5px;
+	left: 15px;
+	color: blue;
+}
+.inventory {
+	width: 50px;
+	height: 50px;
+	border: 1px solid rgb(255, 255, 255);
+	cursor: pointer;
+}
+.block {
+	width: 50px;
+	height: 50px;
+}
+.cloud {
+	width: 50px;
+	height: 50px;
+	background: rgb(250, 250, 250);
+}
+.dirt {
+	width: 50px;
+	height: 50px;
+	background-image: url('/Imgs/Dirt.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.grass {
+	width: 50px;
+	height: 50px;
+	background-image: url('/Imgs/Grass.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.oak {
+	width: 50px;
+	height: 50px;
+	background-image: url('/Imgs/Oak-Log.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.leaves {
+	width: 50px;
+	height: 50px;
+	background-image: url('/Imgs/Leaves.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.stone {
+	width: 50px;
+	height: 50px;
+	background-image: url('/Imgs/Stone.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
